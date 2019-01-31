@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha -r ts-node/register **/*.spec.ts",
-    "3-functions-bonusMaker": "mocha -r ts-node/register 3-functions-bonusMaker.spec.ts"
+    "3-functions": "mocha -r ts-node/register 3-functions.spec.ts",
+    "4-classes": "mocha -r ts-node/register 4-classes.spec.ts"
   },
   "repository": {
     "type": "git",
