@@ -1,6 +1,7 @@
 import Address from './5a-address';
 import DinoPark from './5a-dino-park';
 import { strict as assert } from 'assert';
+import {createParkSlug} from './5b-create-park-slug'
 import 'mocha';
 
 describe('Interfaces', () => {
@@ -53,6 +54,19 @@ describe('Interfaces', () => {
 				zip: '12345'
 			}
 		});
+	});
+
+	it('createParkSlug', function(){
+		let result = createParkSlug({
+			name: "Isla Sorna Park",
+			address: {
+				street: '123 Main',
+				city: 'Sandusky',
+				state: 'Ohio',
+				zip: '12345'
+			}
+		});
+		assert.equal(result, "Isla-Sorna-Park", "slug works");
 	});
 
 });
