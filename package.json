@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha -r ts-node/register **/*.spec.ts",
     "3-functions": "mocha -r ts-node/register 3-functions.spec.ts",
-    "4-classes": "mocha -r ts-node/register 4-classes.spec.ts"
+    "4-classes": "mocha -r ts-node/register 4-classes.spec.ts",
+    "solutions": "node ./lib/copy-tests-to-solutions.js && mocha -r ts-node/register solutions/**/*.spec.ts"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   "dependencies": {
     "@types/mocha": "^5.2.5",
     "@types/node": "^10.12.20",
+    "copy": "^0.3.2",
     "mocha": "^5.2.0",
     "ts-node": "^8.0.2",
     "typescript": "^3.2.4"

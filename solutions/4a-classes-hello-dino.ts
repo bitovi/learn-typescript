@@ -6,7 +6,7 @@ class DinoKeeper {
   }
 
   sayHi() {
-    console.log(`${this.name} says "hi"`);
+    return `${this.name} says "hi"`;
   }
 }
 

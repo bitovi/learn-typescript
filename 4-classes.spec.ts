@@ -9,7 +9,7 @@ describe('Classes DinoKeeper', () => {
 		assert.equal(dinoKeeper.sayHi() , `Joe says "hi"`);
 	});
 
-	it('basics work', () => {
+	it('typing works', () => {
 		var dinoKeeper = new DinoKeeper("Joe") as DinoKeeper;
 		assert.equal(dinoKeeper.sayHi() , `Joe says "hi"`);
 	});
