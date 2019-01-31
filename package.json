@@ -1,7 +1,7 @@
 {
   "name": "@bitovi/typescript-training",
   "version": "1.0.0",
-  "description": "Typescript training",
+  "description": "TypeScript training",
   "main": "index.js",
   "scripts": {
     "test": "mocha -r ts-node/register **/*.spec.ts",
