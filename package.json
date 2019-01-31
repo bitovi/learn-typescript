@@ -1,0 +1,30 @@
+{
+  "name": "@bitovi/typescript-training",
+  "version": "1.0.0",
+  "description": "Typescript training",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register **/*.spec.ts",
+    "3-functions-bonusMaker": "mocha -r ts-node/register 3-functions-bonusMaker.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitovi/typescript-training.git"
+  },
+  "keywords": [
+    "TypeScript"
+  ],
+  "author": "Bitovi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitovi/typescript-training/issues"
+  },
+  "homepage": "https://github.com/bitovi/typescript-training#readme",
+  "dependencies": {
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.12.20",
+    "mocha": "^5.2.0",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.2.4"
+  }
+}
