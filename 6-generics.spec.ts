@@ -33,16 +33,16 @@ describe('Generics', () => {
 			}
 		};
 
-		let root = new TreeNode<string>("Jeniffer", stringComparison);
+		let root = new TreeNode<string>("Jennifer", stringComparison);
 
 		root.add("Chasen");
 
-		assert.equal( root.left.value, "Chasen" , "Chasen to the left of Jeniffer" );
+		assert.equal( root.left.value, "Chasen" , "Chasen to the left of Jennifer" );
 
 		root.add("Tom");
 		root.add("Matthew");
 
-		assert.equal( root.right.value, "Tom" , "Tom to the right of Jeniffer" );
+		assert.equal( root.right.value, "Tom" , "Tom to the right of Jennifer" );
 		assert.equal( root.right.left.value, "Matthew", "Matthew to the left of Tom");
 	});
 
