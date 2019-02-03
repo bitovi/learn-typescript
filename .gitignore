@@ -2,3 +2,5 @@ node_modules/
 solutions/*.spec.ts
 /0-why-hello-world.js
 /0-why-hello-world.ts
+/1-ide-hello-earth.js
+/1-ide-greeter.js
