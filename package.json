@@ -7,6 +7,8 @@
     "test": "mocha -r ts-node/register **/*.spec.ts",
     "0-why": "mocha -r ts-node/register 0-why.spec.ts",
     "1-ide": "mocha -r ts-node/register 1-ide.spec.ts",
+    "2a-types": "mocha -r ts-node/register 2a-types.spec.ts",
+    "2b-types": "mocha -r ts-node/register 2b-types.spec.ts",
     "3-functions": "mocha -r ts-node/register 3-functions.spec.ts",
     "4-classes": "mocha -r ts-node/register 4-classes.spec.ts",
     "5-interfaces": "mocha -r ts-node/register 5-interfaces.spec.ts",
