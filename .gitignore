@@ -1,4 +1,4 @@
 node_modules/
 solutions/*.spec.ts
-0-why-hello-world.js
-0-why-hello-world.ts
+/0-why-hello-world.js
+/0-why-hello-world.ts
