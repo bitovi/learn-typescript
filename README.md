@@ -1,16 +1,16 @@
-# typescript-training
+# learn-typescript
 
 
 To use this:
 
 1. Clone this repo:
    ```
-   git clone https://github.com/bitovi/typescript-training.git
+   git clone https://github.com/bitovi/learn-typescript.git
    ```
 
 2. Open your terminal to that folder:
    ```
-   cd typescript-training
+   cd learn-typescript
    ```
 
 3. Install node packages:
