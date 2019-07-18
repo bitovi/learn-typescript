@@ -13,7 +13,11 @@
     "4-classes": "mocha -r ts-node/register 4-classes.spec.ts",
     "5-interfaces": "mocha -r ts-node/register 5-interfaces.spec.ts",
     "6-generics": "mocha -r ts-node/register 6-generics.spec.ts",
-    "solutions": "node ./lib/copy-tests-to-solutions.js && mocha -r ts-node/register solutions/**/*.spec.ts"
+    "solutions": "node ./lib/copy-tests-to-solutions.js && mocha -r ts-node/register solutions/**/*.spec.ts",
+    "postinstall": "node ./lib/check-node-version.js"
+  },
+  "engines": {
+    "node": ">=8"
   },
   "repository": {
     "type": "git",
@@ -33,6 +37,7 @@
     "@types/node": "^10.12.20",
     "copy": "^0.3.2",
     "mocha": "^5.2.0",
+    "semver": "^6.2.0",
     "ts-node": "^8.0.2",
     "typescript": "^3.2.4"
   }
