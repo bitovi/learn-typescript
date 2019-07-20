@@ -7,7 +7,7 @@ function removeSpaces(str: string) {
 	return str.replace(/\s+/g," ");
 }
 
-describe('Classes Specialist', () => {
+describe('Classes: Specialist', () => {
 
 	it('basics work', () => {
 		let employee2 = new Specialist("Owen", 14);
