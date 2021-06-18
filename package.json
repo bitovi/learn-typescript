@@ -14,6 +14,7 @@
     "4b-classes": "mocha -r ts-node/register 4b-classes.spec.ts",
     "5-interfaces": "mocha -r ts-node/register 5-interfaces.spec.ts",
     "6-generics": "mocha -r ts-node/register 6-generics.spec.ts",
+    "7-guards": "mocha -r ts-node/register 7-guards.spec.ts",
     "solutions": "node ./lib/copy-tests-to-solutions.js && mocha -r ts-node/register solutions/**/*.spec.ts",
     "postinstall": "node ./lib/check-node-version.js"
   },
