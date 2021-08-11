@@ -16,6 +16,7 @@
     "6-generics": "mocha -r ts-node/register 6-generics.spec.ts",
     "7-guards": "mocha -r ts-node/register 7-guards.spec.ts",
     "8-index-signature": "mocha -r ts-node/register 8-index-signature.spec.ts",
+    "9-utility-types": "mocha -r ts-node/register 9-utility-types.spec.ts",
     "solutions": "node ./lib/copy-tests-to-solutions.js && mocha -r ts-node/register solutions/**/*.spec.ts",
     "postinstall": "node ./lib/check-node-version.js"
   },
