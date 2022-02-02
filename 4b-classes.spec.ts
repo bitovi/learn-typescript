@@ -1,4 +1,3 @@
-import DinoKeeper from './4a-classes-hello-dino';
 import Specialist from './4b-specialist';
 import { strict as assert } from 'assert';
 import 'mocha';

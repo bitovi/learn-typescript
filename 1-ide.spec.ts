@@ -1,7 +1,5 @@
 import { strict as assert } from 'assert';
 import 'mocha';
-import {readFileSync} from 'fs';
-import {join} from 'path';
 
 describe('IDE (import and export)', () => {
 
