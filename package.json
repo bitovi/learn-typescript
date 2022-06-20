@@ -13,6 +13,8 @@
     "4a-classes": "mocha -r ts-node/register 4a-classes.spec.ts",
     "4b-classes": "mocha -r ts-node/register 4b-classes.spec.ts",
     "5-interfaces": "mocha -r ts-node/register 5-interfaces.spec.ts",
+    "5d-keyof-typeof-ex2": "mocha -r ts-node/register 5d-keyof-typeof-ex2.spec.ts",
+    "5c-keyof-typeof-ex1": "mocha -r ts-node/register 5c-keyof-typeof-ex1.spec.ts",
     "6-generics": "mocha -r ts-node/register 6-generics.spec.ts",
     "7-guards": "mocha -r ts-node/register 7-guards.spec.ts",
     "8-index-signature": "mocha -r ts-node/register 8-index-signature.spec.ts",
